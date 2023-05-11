@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="assets/image/logo-icon.png" />
+        <!-- Font Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- FontAwesome Link for Icons-->
+        <script
+            src="https://kit.fontawesome.com/ee634a1922.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- CSS Links -->
+        <link rel="stylesheet" href="assets/css/navigation.css" />
+        <link rel="stylesheet" href="assets/css/room.css" />
+        <title>Hotel Mercante | Room</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- navigation -->
+            <header>
+                <div class="nav-wrapper">
+                    <a href="index.html" class="logo">
+                        <picture>
+                            <source
+                                media="(min-width:650px)"
+                                srcset="assets/image/logo.png"
+                            />
+                            <img
+                                src="assets/image/logo-icon.png"
+                                alt="Flowers"
+                                style="width: auto"
+                            />
+                        </picture>
+                    </a>
+
+                    <div class="hide menu-btn">
+                        <i
+                            class="fa-sharp fa-solid fa-bars"
+                            style="color: white; font-size: 24px"
+                        ></i>
+                    </div>
+                    <nav class="main-nav show">
+                        <ul class="nav-links">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="room.html" class="active">Rooms</a>
+                            </li>
+                            <li>
+                                <a href="contact.html"> Contact </a>
+                            </li>
+
+                            <li class="account-btn">
+                                <a href="login.html" class="account-link log-in"
+                                    >Book Now
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- main -->
+
+            <main>
+                <div class="rooms-container">
+                    <h2 class="room-title">Our Rooms</h2>
+                    <p class="room-sub-title">Hotel Mercante</p>
+
+                    <!-- room -->
+                    <div class="room-row">
+                        <div class="room-col">
+                            <img
+                                src="assets/image/single-room.jpg"
+                                alt="single room"
+                            />
+                            <div class="room-desc">
+                                <h3 class="desc-title">Single Room</h3>
+                                <p class="desc-sub-title">
+                                    <i class="fa-regular fa-user"></i> 1 adult
+                                </p>
+                                <p class="desc-content">
+                                    Single bed, toilet & bad, mini cabinet and
+                                    desk, and telivision.
+                                </p>
+                                <div class="btn">
+                                    <button class="room-btn">
+                                        Book now
+                                        <i
+                                            class="fa-sharp fa-solid fa-peso-sign"
+                                        ></i>
+                                        500
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="room-col">
+                            <img
+                                src="assets/image/standard-room.jpg"
+                                alt="single room"
+                            />
+                            <div class="room-desc">
+                                <h3 class="desc-title">Standard Room</h3>
+                                <p class="desc-sub-title">
+                                    <i class="fa-regular fa-user"></i> 2
+                                    adult(s)
+                                </p>
+                                <p class="desc-content">
+                                    Double bed, toilet & bad, big cabinet and
+                                    desk, and telivision, air conditioned.
+                                </p>
+                                <div class="btn">
+                                    <button class="room-btn">
+                                        Book now
+                                        <i
+                                            class="fa-sharp fa-solid fa-peso-sign"
+                                        ></i>
+                                        1000
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="room-col">
+                            <img
+                                src="assets/image/deluxe-room.jpeg"
+                                alt="single room"
+                            />
+                            <div class="room-desc">
+                                <h3 class="desc-title">Deluxe Room</h3>
+                                <p class="desc-sub-title">
+                                    <i class="fa-regular fa-user"></i> 3
+                                    adult(s) 4 children(s)
+                                </p>
+                                <p class="desc-content">
+                                    3 king size bed, 2 standard bed, kitchen,
+                                    toilet & bath, air conditioned
+                                </p>
+                                <div class="btn">
+                                    <button class="room-btn">
+                                        Book now
+                                        <i
+                                            class="fa-sharp fa-solid fa-peso-sign"
+                                        ></i>
+                                        4000
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Scripts -->
+
+        <!-- menu script -->
+        <script src="menu.js"></script>
+    </body>
+</html>
